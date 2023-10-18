@@ -299,6 +299,7 @@ h1{
 }
 
 h2{
+  font-size: 4em;
   font-weight: 400;
   font-family: 'Playfair Display';
 }
@@ -458,11 +459,15 @@ footer {
   }
 
   h1{
-    font-size: 44px;
+    font-size: 35px;
   }
 
   h2{
-    font-size: 12px;
+    font-size: 30px;
+  }
+
+  h2.unterüberschrift{
+    font-size: 40px;
   }
 
   .header{
@@ -473,9 +478,9 @@ footer {
     margin-top: 180px;
   }
 
-  /* .project-wrapper{
+  .project-wrapper{
     margin-top: 90px;
-  } */
+  }
 
 
   .about-img{
@@ -547,11 +552,15 @@ footer {
   }
 
   h1{
-    font-size: 64px;
+    font-size: 35px;
   }
 
   h2{
-    font-size: 32px;
+    font-size: 30px;
+  }
+
+  h2.unterüberschrift{
+    font-size: 40px;
   }
 
   .header{
