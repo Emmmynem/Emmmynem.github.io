@@ -181,6 +181,21 @@ input[type="checkbox"]:checked {
   padding: 20px;
 }
 
+.intro-portugal{
+  background-color:rgb(59, 82, 92);
+  padding: 20px;
+}
+
+.intro-spanien{
+  background-color:rgb(59, 82, 92);
+  padding: 20px;
+}
+
+.intro-frankreich{
+  background-color:rgb(59, 82, 92);
+  padding: 20px;
+}
+
 .test{
   margin-bottom: 200px;
 }
@@ -202,6 +217,8 @@ input[type="checkbox"]:checked {
 .red{
   color: rgb(132, 43, 43);
 }
+
+
 
 
 /* experiment-area Pfeil */
@@ -513,6 +530,36 @@ footer {
     }
 }
 
+/* Portugal */
+
+/* .portugal-abstand{
+  margin-top: 500px;
+} */
+
+.long-txt-portugal{
+ 
+ margin: 120px 10vw 0 80px;
+ gap: 3vw;
+ grid-template-columns: 1fr 1fr;
+}
+
+/* Spanien */
+
+.long-txt-spanien{
+ 
+  margin: 120px 10vw 0 80px;
+  gap: 3vw;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ /* frankreich */
+
+ .long-txt-frankreich{
+ 
+  margin: 120px 10vw 0 80px;
+  gap: 3vw;
+  grid-template-columns: 1fr 1fr;
+ }
 /* BRP1 -Tablets --------------------------------------------------------------------------------*/
 /* (zwischen 481px und 991px) */
 
@@ -670,6 +717,9 @@ footer {
     width: clamp(670px, 15vw, 1070px);
     height: clamp(420px, 45vh, 700px);
     margin: 5vh 0px 0 46vw;
+  
+    max-width: 40vw;
+    width: calc(100% - 20px);
   }
 
   .long-txt{
