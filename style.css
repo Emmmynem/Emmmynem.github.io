@@ -64,21 +64,21 @@ body.frankreich{
   padding: 0;
   background-color: var(--bg-color);
   background-image: url(assets/Images/Frankreich/2B8C3B52-9D7F-403A-8421-A6BD2D14EEA2.JPG);
-  background-size:cover;
-  background-attachment:fixed;
+  background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   color: var(--color);
   /* font-family: 'Red Hat Mono', monospace; */
   font-family: 'Anderson Grotesk', sans-serif;
 }
 
-body.about{
+body.uber{
   margin: 0;
   padding: 0;
-  background-color: var(--bg-color);
-  background-image: url();
+  background-color:rgb(31, 31, 31);
+  background-image: url(assets/Images/neu.png);
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: center;
   color: var(--color);
   /* font-family: 'Red Hat Mono', monospace; */
