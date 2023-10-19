@@ -37,8 +37,8 @@ body.portugal{
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  background-image: url(assets/Images//IMG_6032.jpeg);
-  background-size:cover;
+  background-image: url(assets/Images/161616.png);
+  background-size: cover;
   background-attachment:fixed;
   background-position: center;
   color: var(--color);
@@ -50,7 +50,7 @@ body.spanien{
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  background-image: url(assets/Images/Spanien/e708bd8e-112c-42c6-982b-9ba85cfccfaa.JPG);
+  background-image: url(assets/Images/161616.png);
   background-size:cover;
   background-attachment:fixed;
   background-position: center;
@@ -63,7 +63,7 @@ body.frankreich{
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  background-image: url(assets/Images/Frankreich/2B8C3B52-9D7F-403A-8421-A6BD2D14EEA2.JPG);
+  background-image: url(assets/Images/161616.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -218,6 +218,10 @@ input[type="checkbox"]:checked {
   color: rgb(132, 43, 43);
 }
 
+.grey{
+  color: slategray;
+}
+
 
 
 
@@ -333,6 +337,96 @@ h2{
 .long-txt{
   display: grid;
 }
+/* Frankreich */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:before {
+  display: table;
+  content: " ";
+}
+
+.wrapper {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.wrapper.no-top {
+  margin-top: 0;
+}
+
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img-card {
+  margin: 3px;
+  float: left;
+  /* object-fit: cover; */
+  
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+  /* height: auto; */
+  padding: 5px;
+  object-fit: cover;
+}
+
+.one {
+  flex: 1;
+}
+
+.two-third {
+  flex: 0.69;
+}
+
+.one-third {
+  flex: 0.31;
+}
+
+.one-fourth {
+  flex: 0.237;
+}
+
+.flex-3 {
+  flex: 0.526;
+}
+
+@media all and (max-width: 770px) {
+  .img-card {
+    flex: 100% !important;
+  }
+}
+
+
+/* Portugal------------------------------------------------------------------------------------------- */
 
 /* Cards ----------------------------------------------------------------------------------------------*/ 
 .project-wrapper {
@@ -619,9 +713,9 @@ footer {
     margin-top: 300px;
   }
 
-  /* .project-wrapper{
+  .project-wrapper{
     margin-top: 90px;
-  } */
+  }
 
 
   .about-img{
