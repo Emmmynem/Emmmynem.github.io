@@ -21,7 +21,13 @@
 	font-weight: 700;
 }
 
-body.home{
+/* html{
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+
+body{
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
@@ -31,7 +37,11 @@ body.home{
   color: var(--color);
   /* font-family: 'Red Hat Mono', monospace; */
   font-family: 'Anderson Grotesk', sans-serif;
+  max-width: 100%;
+  position: relative;
+  overflow-y: auto;
 }
+
 
 body.portugal{
   margin: 0;
@@ -44,6 +54,8 @@ body.portugal{
   color: var(--color);
   /* font-family: 'Red Hat Mono', monospace; */
   font-family: 'Anderson Grotesk', sans-serif;
+  position: relative;
+  overflow-y: auto;
 }
 
 body.spanien{
@@ -57,6 +69,8 @@ body.spanien{
   color: var(--color);
   /* font-family: 'Red Hat Mono', monospace; */
   font-family: 'Anderson Grotesk', sans-serif;
+  position: relative;
+  overflow-y: auto;
 }
 
 body.frankreich{
@@ -85,6 +99,7 @@ body.uber{
   /* font-family: 'Anderson Grotesk', sans-serif; */
 }
 
+
 /* Navigation ----------------------------------------------------------------------------------------------*/ 
 nav{
   position: fixed;
@@ -97,6 +112,7 @@ nav{
   align-items: center;
   box-shadow: 0 0px 10px 12px var(--bg-color);
   font-family: 'anderson Grotesk', sans-serif;
+  max-width: 100%;
 }
 
 ul {
@@ -336,20 +352,22 @@ h2{
 
 .home-img{
   overflow: hidden;
-  background-image: url("assets/Images/screenshot\ neuneu.png");
+  background-image: url("assets/Images/screenshot\ neuneu\ copy.png");
   border-radius: 20px;
   object-fit: cover;
   background-size: cover;
-  /* margin: 5vh auto 0 auto; */
+  margin: 5vh auto 0 auto;
   position: absolute;
   /* width: clamp(1205px, 14vw, 1605px);
   height: clamp(655px, 45vh, 945px); */
-  width: 1700px;
-  height: 730px;
-  margin: 0vh 0px 0 47vw;
-  max-width: 60vw;
+  width: 1600px;
+  height: 830px;
+  margin: -15vh 0 0 46vw;
+  max-width: 50vw;
   width: calc(100% - 20px);
   /* box-shadow: 0 0 8px 8px rgb(210, 193, 173) inset; */
+  overflow-x: hidden;
+  margin-left: 47vw;
  
 }
 
@@ -871,6 +889,8 @@ footer {
 @media screen and (min-width: 992px) {
   body{
     font-size: 14px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   /* Navigation */
