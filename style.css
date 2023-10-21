@@ -334,6 +334,25 @@ h2{
   background-size: cover;
 }
 
+.home-img{
+  overflow: hidden;
+  background-image: url("assets/Images/screenshot\ neuneu.png");
+  border-radius: 20px;
+  object-fit: cover;
+  background-size: cover;
+  /* margin: 5vh auto 0 auto; */
+  position: absolute;
+  /* width: clamp(1205px, 14vw, 1605px);
+  height: clamp(655px, 45vh, 945px); */
+  width: 1700px;
+  height: 730px;
+  margin: 0vh 0px 0 47vw;
+  max-width: 60vw;
+  width: calc(100% - 20px);
+  /* box-shadow: 0 0 8px 8px rgb(210, 193, 173) inset; */
+ 
+}
+
 .long-txt{
   display: grid;
 }
@@ -684,6 +703,10 @@ footer {
     margin: 5vh auto 0 auto;
   }
 
+  .home-img{
+   display: none;
+  }
+
   .about-abstand{
     margin-top: 30px;
   }
@@ -809,6 +832,10 @@ footer {
     width: clamp(300px, 15vw, 400px);
     height: clamp(420px, 45vh, 700px);
     margin: 5vh auto 0 auto;
+  }
+
+   .home-img{
+   display: none;
   }
 
   .about-abstand{
